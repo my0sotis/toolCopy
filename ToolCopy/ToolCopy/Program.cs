@@ -17,22 +17,23 @@ namespace ToolCopy
             string[] allline = File.ReadAllLines("config.txt");
             //line1:
             var a = Regex.Match(allline[0], @"From:(.*)").Groups[1];
-            var c = Regex.Match(allline[1], @"To:(.*)").Groups[1];
             var b = Regex.Match(allline[2], @"Override:(.*)").Groups[1];
-            if (!CheckPath(c.ToString()))
+            var c = Regex.Match(allline[1], @"Folder:(.*)").Groups[1];
+            if (!CheckPath(a.ToString()))
             {
                 Console.WriteLine("Path khoong khop! check lai");
             }
-            var path = Directory.GetCurrentDirectory() + "\\" + a + "\\";
+            var path = Directory.GetCurrentDirectory();
+            var from = a.ToString();
             try
             {
-                if (!Directory.Exists(c.ToString() + a))
-                    Directory.CreateDirectory(c.ToString() + a + "\\");
+                if (!Directory.Exists(path + "\\" + c))
+                    Directory.CreateDirectory(path + "\\" + c);
                 else
                 {
-                    Directory.Delete(c + "\\" + a,true);
+                    Directory.Delete(path + "\\" + c, true);
                 }
-                DirectoryCopy(path, c + "\\" + a, true);
+                DirectoryCopy(from, path + "\\" + c, true);
             }
             catch (Exception)
             {

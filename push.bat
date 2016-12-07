@@ -1,3 +1,4 @@
+start ToolCopy.exe
 
 git pull
 git add .

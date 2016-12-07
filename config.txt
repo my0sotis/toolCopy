@@ -1,0 +1,3 @@
+﻿From:E:\DRIVE\Visual Studio project\ToolCopy\
+Folder:ToolCopy
+Override:true

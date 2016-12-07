@@ -1,6 +1,0 @@
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\bin\Debug\ToolCopy.exe.config
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\bin\Debug\ToolCopy.exe
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\bin\Debug\ToolCopy.pdb
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\obj\Debug\ToolCopy.csprojResolveAssemblyReference.cache
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\obj\Debug\ToolCopy.exe
-E:\DRIVE\Visual Studio project\ToolCopy\ToolCopy\obj\Debug\ToolCopy.pdb
