@@ -1,3 +1,0 @@
-﻿From:E:\elegant-blogger
-Folder:elegant-blogger
-Override:true
